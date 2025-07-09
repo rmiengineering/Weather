@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="refresh" content="300">
-  <title>Calgary Weather</title>
+  <title>Vancouver Weather</title>
 </head>
 <body>
   <div class="weatherwidget-io"
@@ -17,7 +17,7 @@
        data-basecolor="rgba(0, 0, 0, 0.01)"
        data-highcolor="#f30611"
        style="display: block; height: 180px;">
-    CALGARY WEATHER
+    Vancouver Weather
   </div>
 
   <script>
