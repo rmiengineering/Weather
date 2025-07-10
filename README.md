@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="300">
-<title>Vancouver Weather Widget</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="300">
+  <title>Vancouver Weather</title>
 </head>
 <body>
-<a class="weatherwidget-io" href="https://www.theweathernetwork.com/en/city/ca/british-columbia/vancouver/current" data-label_1="vancouver/current" data-label_2="WEATHER" data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="dark" data-basecolor="rgba(0, 0, 0, 0.01)" data-highcolor="#f30611" style="display: block; position: relative; height: 180px; padding: 0px; overflow: hidden; text-align: left; text-indent: -299rem;">Vancouver Weather
-<iframe id="weatherwidget-io-0" class="weatherwidget-io-frame" title="Weather Widget" scrolling="no" frameborder="0" width="100%" src="https://weatherwidget.io/w/" style="display: block; position: absolute; top: 0px; height: 180px;"></iframe></a>
+<a class="weatherwidget-io" href="https://forecast7.com/en/49d28n123d12/vancouver/" data-label_2="WEATHER" data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="dark" data-basecolor="rgba(0, 0, 0, 0.01)" data-highcolor="#f30611" >Vancouver Weather</a>
 <script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
 </body>
 </html>
