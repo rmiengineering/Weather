@@ -7,7 +7,7 @@
 </head>
 <body>
   <a class="weatherwidget-io"
-     href="https://www.theweathernetwork.com/en/airport/ca/british-columbia/vancouver-airport/current"
+     href="https://forecast7.com/en/51d05n114d07/calgary/"
      data-label_1="CALGARY"
      data-label_2="WEATHER"
      data-font="Roboto"
